@@ -5,6 +5,8 @@ VisualStudioVersion = 12.0.40629.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CleanDb", "CleanDb\CleanDb.csproj", "{A678CA6C-F5C9-4282-BB27-6ED33E037812}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sdx", "..\cs-sdx\Sdx\Sdx.csproj", "{ED186D94-5AB8-4707-B0A8-60FBD4237D2D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{A678CA6C-F5C9-4282-BB27-6ED33E037812}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A678CA6C-F5C9-4282-BB27-6ED33E037812}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A678CA6C-F5C9-4282-BB27-6ED33E037812}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ED186D94-5AB8-4707-B0A8-60FBD4237D2D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ED186D94-5AB8-4707-B0A8-60FBD4237D2D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ED186D94-5AB8-4707-B0A8-60FBD4237D2D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ED186D94-5AB8-4707-B0A8-60FBD4237D2D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
