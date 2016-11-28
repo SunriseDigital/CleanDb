@@ -63,10 +63,10 @@
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>
-    <PostBuildEvent>if not exist $(SolutionDir)\dest mkdir $(SolutionDir)\dest
-copy $(TargetPath) $(SolutionDir)\dest\
-copy $(TargetDir)\Sdx.dll $(SolutionDir)\dest\
-copy $(TargetDir)\CommandLine.dll $(SolutionDir)\dest\</PostBuildEvent>
+    <PostBuildEvent>if not exist $(SolutionDir)\dist mkdir $(SolutionDir)\dist
+copy $(TargetPath) $(SolutionDir)\dist\
+copy $(TargetDir)\Sdx.dll $(SolutionDir)\dist\
+copy $(TargetDir)\CommandLine.dll $(SolutionDir)\dist\</PostBuildEvent>
   </PropertyGroup>
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
