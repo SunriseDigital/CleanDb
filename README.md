@@ -42,7 +42,7 @@ CleanDb /path/to/config connectionName TableName column_name 10d -a
 
 コマンドラインのパースに[これ](https://github.com/gsscoder/commandline/)を使用しています。バージョン１系ではオプションのみで単一の引数を扱えなかった（ValueAttributeがなかった）のでalpha版ですが、２系を使用しています。ドキュメントが下記にあります。
 
-https://github.com/gsscoder/commandline/issues/375
+https://github.com/gsscoder/commandline/wiki/Latest-Version
 
 Nu-getでPreを入れています。正式リリースまでにAPIが変わるかもしれないので注意してください。
 
