@@ -105,7 +105,7 @@ SQL: {1}
 
     private static void ExitWithError(string message, params string[] values)
     {
-      Console.WriteLine("Error: " + string.Format(message, values));
+      Console.Error.WriteLine("Error: " + string.Format(message, values));
       Environment.Exit(1);
     }
 
